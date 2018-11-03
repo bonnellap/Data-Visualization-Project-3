@@ -1,0 +1,51 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CIS 468 Assignment #3</title>
+    <!-- Import CSS and JavaScript code -->
+    <link rel="stylesheet" href="a3.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+          crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+            integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+            crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.js"></script>
+</head>
+<body>
+    <h1>Info</h1>
+    <!-- HTML for Part 0 goes here -->
+    <div id="info">
+        <div class="left">
+            <!-- Your Name & Id -->
+            <h1>Alec Bonnell</h1>
+            <h1>#01532010</h1>
+        </div>
+        <div class="right">
+            <!-- Class Title & Assignment -->
+            <h1>Data Visualization (CIS 468)</h1>
+            <h1>Assignment #3</h1>
+        </div>
+    </div>
+
+    <h1>Citibike Station Map</h1>
+    <div id="station-map"></div>
+
+    <h1>Citibike Availability Scatterplot</h1>
+    <div id="scatterplot"></div>
+
+    <h1>Citibike Availability Choropleth Map</h1>
+    <div id="availability-map"></div>
+
+    <h1>Citibike Station Map with Color</h1>
+    <div id="station-color-map"></div>
+
+    <h1>Citibike Availability Choropleth Map Using Leaflet</h1>
+    <div id="mapid"></div>
+
+    <!-- Make sure everything is loaded before defining JavaScript. -->
+    <script type="text/javascript" src="a3.js"></script>
+</body>
+</html>
